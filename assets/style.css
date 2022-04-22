@@ -1,3 +1,29 @@
 body {
     background-color: green;
 }
+
+#earth{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 0.05rem auto;
+    background: url("../assets/images/physical-world-map.jpg") 0 0 repeat;
+    border-radius: 50%;
+    background-size: 630px;
+    animation: rotate 7s linear infinite;
+    transition: transform 200ms linear;
+    transform-style: preserve-3d;
+    box-shadow: inset 20px 0 40px 6px rgb(0,0,0);
+    color: #000;
+}
+
+@keyframes rotate { 
+    0% { 
+        background-position:0 0;
+    }
+    100% {
+        background-position:630px 0 ;
+    }
+
+
+}
