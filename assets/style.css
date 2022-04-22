@@ -7,7 +7,7 @@ main {
     height: 300px;
     width: 300px;
     margin: 0.05rem auto;
-    background: url("../assets/images/physical-world-map.jpg") 0 0 repeat;
+    background: url("../assets/images/world-map.png") 0 0 repeat;
     border-radius: 50%;
     background-size: 630px;
     animation: rotate 7s linear infinite;
