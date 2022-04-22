@@ -17,6 +17,17 @@ main {
     text-align: center;
 }
 
+/* info cards */
+
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.info-card {
+    border: 2px black solid;
+}
+
 /* #earth{
     position: relative;
     height: 300px;
