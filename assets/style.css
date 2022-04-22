@@ -2,7 +2,22 @@ main {
     background-color: green;
 }
 
-#earth{
+.hero-image {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../assets/images/world-map.png");
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+}
+
+/* #earth{
     position: relative;
     height: 300px;
     width: 300px;
@@ -24,6 +39,4 @@ main {
     100% {
         background-position:630px 0 ;
     }
-
-
-}
+} */
