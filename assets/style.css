@@ -19,14 +19,29 @@ main {
 
 /* info cards */
 
+.what-site-about-header {
+    text-align: center;
+}
+
+.carousel-header {
+    text-align: center;
+}
+
 .card-title,
 .card-text {
     text-align: center;
 }
 
 .info-card {
+    margin: 20px;
     border: 2px black solid;
 }
+
+.carousel-inner {
+    text-align: center;
+    border: 2px black solid;
+}
+
 
 /* #earth{
     position: relative;
