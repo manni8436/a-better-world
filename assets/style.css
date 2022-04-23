@@ -2,7 +2,48 @@ main {
     background-color: green;
 }
 
-#earth{
+.hero-image {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../assets/images/world-map.png");
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+}
+
+/* info cards */
+
+.what-site-about-header {
+    text-align: center;
+}
+
+.carousel-header {
+    text-align: center;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.info-card {
+    margin: 20px;
+    border: 2px black solid;
+}
+
+.carousel-inner {
+    text-align: center;
+    border: 2px black solid;
+}
+
+
+/* #earth{
     position: relative;
     height: 300px;
     width: 300px;
@@ -24,6 +65,4 @@ main {
     100% {
         background-position:630px 0 ;
     }
-
-
-}
+} */
