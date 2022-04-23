@@ -1,12 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@300);
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: #EBD3A0;
 }
 
+h1, h2 {
+    font-family: 'Arvo','Courier New', Courier, monospace;
+}
+
+.slogan {
+    z-index: 499;
+    font-family: 'Arvo';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #02030A !important;
+}
+
+h3, h4, h5 p {
+    font-family: 'Fira Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #EBD3A0;
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    font-size: 200%;
+    font-family: 'Arvo', 'Courier New', Courier, monospace;
+}
+
+.nav-link {
+    font-size: 150%;
+}
+
+.nav-link {
+    transition: 0.3s ease;
+    color: #0082F5;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 17px;
+  }
+  .nav-link:hover {
+    border-bottom: 4px solid #0082F5;
+    padding: 6px 0; 
+  }
+
 .hero-image {
+    z-index: 500;
     width: 100%;
-    min-height: 50vh;
+    min-height: 66vh;
     background-image: url("../assets/images/sky1.jpg");
     background-color: antiquewhite;
     overflow: hidden;
@@ -15,7 +62,18 @@ main {
     background-size: cover;
 }
 
+.col-lg-4 {
+    padding-top: 25px;
+}
+
 .slogan {
+    color: #02030A !important;
+    padding-top: 25px !important;
+    line-height: 5rem;
+}
+
+.subtitle {
+    font-size: 150%;
     text-align: center;
     font-family: Indie Flower, sans serif;
     font-size: 5rem;
@@ -39,6 +97,9 @@ main {
 
 .what-site-about-header {
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-decoration: line solid 2px #0082F5;
 }
 
 .carousel-header {
@@ -52,7 +113,7 @@ main {
 
 .info-card {
     margin: 20px;
-    border: 2px black solid;
+    border: 2px #4F4F4A solid;
 }
 
 .carousel-inner {
