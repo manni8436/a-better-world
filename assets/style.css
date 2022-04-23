@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 main {
     background-color: rgb(255, 255, 255);
 }
@@ -14,8 +16,23 @@ main {
 }
 
 .slogan {
-    color: white;
     text-align: center;
+    font-family: Indie Flower, sans serif;
+    font-size: 5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 19%;
+    color: dimgrey;
+    background: #f0f8ff94;
+    width: 40%;
+    margin: auto;
+    border: antiquewhite 2px solid;
+    box-shadow: 0 0 5px #8c57a6;
+}
+
+#slogan-earth {
+    margin: 8vh auto 0;
 }
 
 /* info cards */
@@ -44,25 +61,32 @@ main {
 }
 
 
-#earth{
+.earth{
     position: relative;
     height: 300px;
     width: 300px;
     margin: 0.05rem auto;
-    background: url("../assets/images/world-color.jpg") 0 0 repeat;
+    background: url("../assets/images/world-color-smaller.png") 0 0 repeat;
     border-radius: 50%;
     background-size: 630px;
-    animation: rotate 20s linear infinite;
+    animation: rotate 20s ease-in-out infinite;
     transition: transform 200ms linear;
     transform-style: preserve-3d;
-    /* box-shadow: inset 20px 0 40px 6px rgb(58, 58, 58); */
+    filter: hue-rotate(342deg) drop-shadow(0 0 10px black );
+    box-shadow: inset 20px 0 40px 6px rgb(58, 58, 58);
 }
 
 @keyframes rotate { 
     0% { 
+        filter: hue-rotate(342deg);
         background-position:0 0;
     }
+    50% {
+        filter: hue-rotate(100deg);
+        /* filter: hue-rotate(331deg); */
+    }
     100% {
+        filter: hue-rotate(342deg);
         background-position:630px 0 ;
     }
 }
