@@ -5,7 +5,8 @@ main {
 .hero-image {
     width: 100%;
     min-height: 50vh;
-    background-image: url("../assets/images/world-map.png");
+    background-image: url("../assets/images/sky1.jpg");
+    background-color: antiquewhite;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,19 +44,18 @@ main {
 }
 
 
-/* #earth{
+#earth{
     position: relative;
     height: 300px;
     width: 300px;
     margin: 0.05rem auto;
-    background: url("../assets/images/world-map.png") 0 0 repeat;
+    background: url("../assets/images/world-color.jpg") 0 0 repeat;
     border-radius: 50%;
     background-size: 630px;
-    animation: rotate 7s linear infinite;
+    animation: rotate 20s linear infinite;
     transition: transform 200ms linear;
     transform-style: preserve-3d;
-    box-shadow: inset 20px 0 40px 6px rgb(0,0,0);
-    color: #000;
+    /* box-shadow: inset 20px 0 40px 6px rgb(58, 58, 58); */
 }
 
 @keyframes rotate { 
@@ -65,7 +65,7 @@ main {
     100% {
         background-position:630px 0 ;
     }
-} */
+}
 
 
 /* styles for carbon count page*/

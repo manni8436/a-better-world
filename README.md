@@ -1,20 +1,14 @@
 # Earth Day Hackathon
 
-<!-- update shields with proper project name -->
-![GitHub contributors](https://img.shields.io/github/contributors/manni8436/)
-![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/)
-![GitHub language count](https://img.shields.io/github/languages/count/manni8436/)
-![GitHub top language](https://img.shields.io/github/languages/top/manni8436/)
+[Here is a link to the final project]()
 
-[Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
+## Initial Design 
 
-## INITIAL DESIGN
-
-## FINAL DESIGN
+## Final Design
 
 ![Final project image home page]()
 
-## CONTENTS
+## Contents
 
 * [User Experience](#USER-EXPERIENCE)  
     * [User Stories](#USER-STORIES)    
@@ -43,61 +37,124 @@
 
 * [Acknowledgements](#ACKNOWLEDGEMENTS)    
 
-## USER EXPERIENCE
+## User experience
 
-## USER STORIES
+## User stories
 
-#### CLIENT GOALS
+#### First time visitors
 
-#### FIRST TIME VISITORS
+   + As a new user, I would liket to know what the website is about opening the site.
+   + As a new user, I would like to get information about the website.
+   + As a new user, I would like to see find some helpfull information and tips to become more eco-friedly.
+   + As a new user, I would like to easily be able to interact with the page features.
+   + As a new user, I would like to understand how the information is structured in the site.
 
-#### RETURNING USER
+#### Returning Users
 
-## DESIGN
+   + As a repeat user, I would like to be able to find the information I need.
+   + As a reteat user, I would like to easily return into the Carbon Count aplication.
+   + As a repeat user, I would like to easily return into the Tips section.
+   
+#### All users 
+ 
+   + As a user, I would like to get feedback when I have completed an action on the site.
+   + As a user, I would like to be able to contact the website owners if there is an issue.
 
-### COLOR SCHEME
+#### Website owners
+  
+   + As the owners, We want the users to find information easily.
+   + As the owners, We want to inspire the users on how to become more eco-friendly.
+   + As the owners, We want to help the users to transform old habits into more sustanaibles habits.  
+   + As the owners We want to share with the users  sustanability facts and  stadistics  
 
-## WIREFRAMES
+
+## Design
+
+### Color Scheme
+
+## Wireframes
 
 [Here are my wireframes for desktop, mobile and tablet for this project]()
 
-## FEATURES
+## Features
 
-## SOLVED BUGS
+### Main  
 
-## TECHNOLOGIES USED
+ #### Landing page:
 
-###  LANGUAGES USED 
+   + When a user opens the site the are presented with the landing page
 
-### PROGRAMS USED:
+   + It contains a clear title and information about the application 
 
-#### Font Awesome:
-[Font Awesome](https://fontawesome.com/) was used for a few icons in the footer on all of this site's pages.
+   + There are also cards with links to the relevant structured information  
 
-#### Google Fonts:
-[Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+   + There is an about us section and there are the 3 main sections of the page, General information, Tips and the Carbon Count. 
 
-#### Git:
-Git was used for version control by using the Gitpod terminal to add and commit to GIt and push to Github.
+#### Navigation Bar:
 
-#### GitPod:
-GitPod was used as an IDE whilst coding this site.
+   + The navigation menu has been made responsive and Interactive.
+
+   + The navigation menu becomes and hamburger menu in small size screens 
+
+#### The About Setion:
+
+#### The Get inspired:
+
+#### The Footer:
+
+## Solved Bugs:
+
+## Technologies Used
+
+#### Languages Used: 
+
+   + [HTML5](https://en.wikipedia.org/wiki/HTML5S).
+
+     - HTML5 was used to create the content and base of each page.
+
+   + [CSS3](https://en.wikipedia.org/wiki/CSS).
+
+     - CSS3 was used to then style the page and make it responsive through media queries, and interactive through using CSS transitions.
+
+   + [JavaScript](https://en.wikipedia.org/wiki/JavaScript).
+
+     - javaScript was used throughout the website to make the site interactive.
+
+ #### Frameworks Libraries and Programs.
+
+   + [Font Awesome](https://fontawesome.com/) 
+   
+     - Font Awesome Was used for a few icons in the footer  on all of this site's pages.
+
+
+   + [Google Fonts](https://fonts.google.com/)
+   
+     - Google Fnts Was used for all the text content on the site pages.
+
+   + [Git](https://git-scm.com/).
+
+     - Git was used for version control by using the Gitpod terminal to add and commit to GIt and push to Github.
+
+   + [GitPod](https://gitpod.io/).
     
-#### GitHub:
-GitHub is being used to store all the code for this project after being pushed from GitPod.
+     - GitPod was used as an IDE whilst coding this site.
 
-#### Am i Responsive:
-[Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#FINAL-DESIGN) section.
+   + [GitHub](https://github.com/).
+    
+     - GitHub is being used to store all the code for this project after being pushed from GitPod.
+   
+   + [Balsamiq](https://github.com/).
+    
+     - Balsamiq was used in the initial design process to make wireframes.
 
-#### Balsamiq:
-Balsamiq was used in the initial design process to make wireframes.
+   + [Google Developers Tool](https://developers.google.com/web/tools).
+    
+     - Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code.
 
-#### Firefox Developer Tools:
-Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code.
 
-## DEPLOYMENT:
+## Deployment:
 
-### INITIAL DEPLOYMENT
+### Initial Deployment:
 
 This site was deployed using GitHub Pages with the following the steps below:
 
@@ -110,7 +167,7 @@ This site was deployed using GitHub Pages with the following the steps below:
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
 
-### HOW TO FORK A REPOSITORY
+### How to Fork a Repository
 
 If you need to make a copy of a repository:
 
@@ -118,7 +175,7 @@ If you need to make a copy of a repository:
 2. On GitHub, go to [manni8436/MS1-Project]().
 3. In the top right corner, click "Fork".
 
-### HOW TO CLONE A REPOSITORY
+### How to Clon a Repository
 
 If you need to make a clone:    
 
@@ -131,7 +188,7 @@ If you need to make a clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter to create your clone.
 
-### HOW TO MAKE A LOCAL CLONE
+### How to make a Local Clone
 
 If you need to make a local clone:   
 
@@ -144,9 +201,9 @@ If you need to make a local clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
 
-## TESTING
+## Testing
 
-### CODE VALIDATORS
+### Code validators
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 
@@ -155,15 +212,11 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 * W3C CSS Validator Results
     * [CSS]()
 
-### FULL TESTING
+### Lighthouse
 
-[Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
+### Desktop
 
-### LIGHTHOUSE
-
-### DESKTOP
-
-### MOBILE
+### Mobile
 
 #### Performance:
 
@@ -173,10 +226,18 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 #### SEO:
 
-## CONTENT
+## Content
 
-### IMAGES
+   + The content of this website were find searching the relevant information in differents websites with stadistics and information related with climate change, eco-habits, and different forms of contamination:
 
-### TEXT CONTENT
+   * [Cardbord Print Stadistics](https://www.visualcapitalist.com/comparing-the-carbon-footprint-of-transportation-options/)
 
-## ACKNOWLEDGEMENTS:
+   * [Co2 Calculators ](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results/)
+
+   * [Plastic in the Ocean](https://www.condorferries.co.uk/marine-ocean-pollution-statistics-facts#:~:text=PLASTIC%20IN%20THE%20OCEAN%20FACTS%20%26%20STATISTICS&text=oceans%20every%20year.-,There%20are%205.25%20trillion%20pieces%20of%20plastic%20waste%20estimated%20to,15%25%20lands%20on%20our%20beaches)
+
+   * [Tips and Ideas](https://eu.usatoday.com/story/money/2019/06/17/climate-change-30-ways-to-make-your-life-more-environmentally-friendly/39366589/)
+
+### Images
+
+## Acknowledgements
