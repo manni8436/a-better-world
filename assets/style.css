@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@300);
 
+nav { 
+    font-size: xx-large;
+    font-family: Indie Flower, sans serif;
+    font-weight: 900;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    -webkit-animation: rotation 6s infinite linear;
+}
+
+@-webkit-keyframes rotation { 
+    from 
+    {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+
+    }
+}
+
 main {
     background-color: #EBD3A0;
 }
