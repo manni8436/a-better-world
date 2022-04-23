@@ -66,3 +66,17 @@ main {
         background-position:630px 0 ;
     }
 } */
+
+
+/* styles for carbon count page*/
+
+.img-thumbnail {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.product-name {
+    text-transform: capitalize;
+}
