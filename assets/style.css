@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@300&family=Inconsolata:wght@700&family=Playfair+Display+SC:wght@700&display=swap');
+
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: #EBD3A0;
+}
+
+h1 {
+    font-family: 'Arvo','Courier New', Courier, monospace;
+}
+
+h2, h3, h4, h5 p {
+    font-family: 'Fira Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #EBD3A0;
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    font-size: 200%;
+    font-family: 'Arvo', 'Courier New', Courier, monospace;
 }
 
 .hero-image {
     width: 100%;
-    min-height: 50vh;
-    background-image: url("../assets/images/world-map.png");
+    background-image: url("/assets/images/hero.png");
+    opacity: 0.2;
+    min-height: 66vh;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,6 +42,7 @@ main {
 
 .what-site-about-header {
     text-align: center;
+    padding-top: 40px;
 }
 
 .carousel-header {
@@ -34,7 +56,7 @@ main {
 
 .info-card {
     margin: 20px;
-    border: 2px black solid;
+    border: 2px #4F4F4A solid;
 }
 
 .carousel-inner {
