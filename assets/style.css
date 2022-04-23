@@ -80,3 +80,8 @@ main {
 .product-name {
     text-transform: capitalize;
 }
+
+#food-outer-container, #transport-outer-container, 
+#clothing-outer-container, #electronics-outer-container {
+    display: none;
+}

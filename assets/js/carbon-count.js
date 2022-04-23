@@ -186,7 +186,7 @@ function renderProducts() {
             
             productDiv.innerHTML = `<a role="button" data-bs-toggle="modal" data-bs-target="#${product.name}">
             <img src=${product.img_src} alt="..." class="img-thumbnail"></a>
-            <p class=product-name">${product.name}</p>`
+            <p class="product-name">${product.name}</p>`
             
             productModelDiv.setAttribute('id', `${product.name}`)
             productModelDiv.classList.add('modal')
@@ -219,3 +219,36 @@ function renderProducts() {
 
     })
 }       
+
+
+function showSection(event) {
+    let buttonPressed = event.target.getAttribute('data-key');
+    if (buttonPressed === 'food') {
+            document.querySelector("#food-outer-container").style.display = "block"
+            document.querySelector("#transport-outer-container").style.display = "none"
+            document.querySelector("#electronics-outer-container").style.display = "none"
+            document.querySelector("#clothing-outer-container").style.display = "none"
+        }
+        if (buttonPressed === 'transport') {
+            document.querySelector("#food-outer-container").style.display = "none"
+            document.querySelector("#transport-outer-container").style.display = "block"
+            document.querySelector("#electronics-outer-container").style.display = "none"
+            document.querySelector("#clothing-outer-container").style.display = "none"
+        }
+        if (buttonPressed === 'clothing') {
+            document.querySelector("#food-outer-container").style.display = "none"
+            document.querySelector("#transport-outer-container").style.display = "none"
+            document.querySelector("#clothing-outer-container").style.display = "block"
+            document.querySelector("#electronics-outer-container").style.display = "none"
+            
+        }
+        if (buttonPressed === 'electronics') {
+            document.querySelector("#food-outer-container").style.display = "none"
+            document.querySelector("#transport-outer-container").style.display = "none"
+            document.querySelector("#electronics-outer-container").style.display = "block"
+            document.querySelector("#clothing-outer-container").style.display = "none"
+        }
+       
+}
+  
+    
