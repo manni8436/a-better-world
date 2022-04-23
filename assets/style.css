@@ -4,11 +4,20 @@ main {
     background-color: #EBD3A0;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Arvo','Courier New', Courier, monospace;
 }
 
-h2, h3, h4, h5 p {
+.slogan {
+    z-index: 499;
+    font-family: 'Arvo';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #02030A !important;
+}
+
+h3, h4, h5 p {
     font-family: 'Fira Sans', Arial, sans-serif;
 }
 
@@ -22,10 +31,28 @@ h2, h3, h4, h5 p {
     font-family: 'Arvo', 'Courier New', Courier, monospace;
 }
 
+.nav-link {
+    font-size: 150%;
+}
+
+.nav-link {
+    transition: 0.3s ease;
+    color: #0082F5;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 17px;
+  }
+  .nav-link:hover {
+    border-bottom: 4px solid #0082F5;
+    padding: 6px 0; 
+  }
+
 .hero-image {
+    z-index: 500;
     width: 100%;
-    background-image: url("/assets/images/hero.png");
-    opacity: 0.2;
     min-height: 66vh;
     overflow: hidden;
     background-position: center;
@@ -33,9 +60,18 @@ h2, h3, h4, h5 p {
     background-size: cover;
 }
 
+.col-lg-4 {
+    padding-top: 25px;
+}
+
 .slogan {
-    color: white;
-    text-align: center;
+    color: #02030A !important;
+    padding-top: 25px !important;
+    line-height: 5rem;
+}
+
+.subtitle {
+    font-size: 150%;
 }
 
 /* info cards */
@@ -43,6 +79,8 @@ h2, h3, h4, h5 p {
 .what-site-about-header {
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 60px;
+    text-decoration: line solid 2px #0082F5;
 }
 
 .carousel-header {
