@@ -55,36 +55,36 @@
       <div class="container mt-4">
         <div class="row text-center">
           <div class="col-6 col-md-3">
-            <button class="btn btn-outline-success">Food</button>
+            <button class="btn btn-outline-success" onclick="showSection(event)" data-key="food">Food</button>
           </div>
           <div class="col-6 col-md-3">
-            <button class="btn btn-outline-success">Transport</button>
+            <button class="btn btn-outline-success" onclick="showSection(event)" data-key="transport">Transport</button>
           </div>
           <div class="col-6 col-md-3 mt-2">
-            <button class="btn btn-outline-success">Clothing</button>
+            <button class="btn btn-outline-success" onclick="showSection(event)" data-key="clothing">Clothing</button>
           </div>
           <div class="col-6 col-md-3 mt-2">
-            <button class="btn btn-outline-success">Electronics</button>
+            <button class="btn btn-outline-success" onclick="showSection(event)" data-key="electronics">Electronics</button>
           </div>
         </div>
       </div>
       
-      <div class="container mt-4">
+      <div class="container mt-4" id="food-outer-container">
         <div class="row text-center" id="food-container">
           
         </div>
       </div>
-      <div class="container mt-4">
+      <div class="container mt-4" id="transport-outer-container">
         <div class="row text-center" id="transport-container">
           
         </div>
       </div>
-      <div class="container mt-4">
+      <div class="container mt-4" id="clothing-outer-container"">
         <div class="row text-center" id="clothing-container">
           
         </div>
       </div>
-      <div class="container mt-4">
+      <div class="container mt-4" id="electronics-outer-container">
         <div class="row text-center" id="electronics-container">
           
         </div>
