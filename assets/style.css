@@ -196,6 +196,10 @@ h3, h4, h5 p {
     min-height: 200px;
 }
 
+.btn-outline-success {
+    width: 135px;
+}
+
 .product-name {
     text-transform: capitalize;
 }
