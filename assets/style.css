@@ -4,11 +4,11 @@ body {
     background-color: #EBD3A0;
 }
 
-nav { 
+/* nav { 
     font-size: large;
     font-family: Indie Flower, sans serif;
     font-weight: 900;
-}
+} */
 
 #logo {
     height: 70px;
@@ -78,6 +78,8 @@ h3, h4, h5 p {
     padding: 6px 0; 
   }
 
+/* Hero Section */
+
 .hero-image {
     z-index: 500;
     width: 100%;
@@ -100,28 +102,30 @@ h3, h4, h5 p {
     line-height: 5rem;
 }
 
-.subtitle {
-    font-size: 150%;
-    text-align: center;
-    font-family: Indie Flower, sans serif;
-    font-size: 5rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 19%;
-    color: dimgrey;
-    background: #f0f8ff94;
-    width: 40%;
-    margin: auto;
-    border: antiquewhite 2px solid;
-    box-shadow: 0 0 5px #8c57a6;
-}
-
 #slogan-earth {
     margin: 8vh auto 0;
 }
 
+.subtitle {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
 /* info cards */
+.card{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "image" "text" "stats";
+
+    border-radius: 18px;
+    background: #efbc74;
+    box-shadow: 5px 5px 15px #12a6c0;
+    text-align: center;
+}
 
 .what-site-about-header {
     text-align: center;
@@ -134,9 +138,29 @@ h3, h4, h5 p {
     text-align: center;
 }
 
-.card-title,
+
+.carousel-inner{
+    background: #efbc74;
+    border-radius: 18px;
+    height: 60px;
+
+}
+.carousel {
+    background: #efbc74;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px #12a6c0;
+    margin-bottom: 20px;
+    
+}
+
+.carousel p {
+    margin-top: 12px;
+}
+
 .card-text {
-    text-align: center;
+    margin-top: 9px;
+    color: #4F4F4A;
+    
 }
 
 .info-card {
@@ -190,6 +214,7 @@ h3, h4, h5 p {
     max-width: 450px;
     max-height: 500px;
     margin-bottom: 10px;
+    padding: 10px;
 
 }
 
@@ -202,12 +227,17 @@ h3, h4, h5 p {
     min-height: 200px;
 }
 
+.btn-outline-success {
+    width: 135px;
+}
+
 .product-name {
     text-transform: capitalize;
 }
 
-#food-outer-container, #transport-outer-container, 
-#clothing-outer-container, #electronics-outer-container {
+#transport-outer-container, 
+#clothing-outer-container, 
+#electronics-outer-container {
     display: none;
 }
 
@@ -216,65 +246,23 @@ footer {
 }
 
 .team {
-    font-size: 50px;
-    font-family: Indie Flower, sans serif;
+    font-size: 40px;
+    font-family: 'Arvo', Courier, monospace;
     font-weight: 900;
 }
 
-/*Styles for activists.html*/
 
- /*Dark circle around*/
-
- main {
-    position: relative;
-}
-
-/*Background circle*/
-
-#black-circle {
-    background-color: #02030a;
-    align-items: center;
-    width: 600px;
-    height: 600px;
-    border-radius: 20px;
-    position: relative;
-    margin: 0 auto;
-}
-
-/* Main axis*/
-.wheel {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*Class of photos around*/
-
-.photo {
-    border: 5px solid #ebd3a0;
-    border-radius: 100px;
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: transform .2s;
-    transform-origin: center right;
-}
-
-.photo:hover {
-    -ms-transform: scale(1.5);
-    /* IE 9 */
-    -webkit-transform: scale(1.5);
-    /* Safari 3-8 */
-    transform: scale(1.5);
-}
-
-/*Intro paragraph*/
-#intro-activists {
-    font-size: large;
-}
+@media screen and (max-width:960px) { 
+    .tip-text { 
+      width:350px;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width:600px) { 
+    .tip-text { 
+      width:350px;
+    }
+  
+  }
