@@ -193,8 +193,9 @@ h3, h4, h5 p {
     text-transform: capitalize;
 }
 
-#food-outer-container, #transport-outer-container, 
-#clothing-outer-container, #electronics-outer-container {
+#transport-outer-container, 
+#clothing-outer-container, 
+#electronics-outer-container {
     display: none;
 }
 
