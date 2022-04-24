@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Activists</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #02030a;
+        }
+
+        /* Main axis*/
+        .wheel {
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /*Class of photos around*/
+        .photo {
+            border: 5px solid #ebd3a0;
+            border-radius: 100px;
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: transform .2s;
+            transform-origin: center right;
+        }
+
+        .photo:hover {
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wheel">
+        <img class="photo" src="images/Elizabeth_wanjiru_wathuti.jpg" alt="Elizabeth Wanjiru Wathuti" title="Elizabeth Wanjiru Wathuti.
+    Award-winning Kenyan environment activist Elizabeth 
+    Wanjiru Wathuti founded the Green Generation Initiative
+    which has planted over 30,000 tree seedlings in Kenya.">
+
+        <img class="photo" src="images/Ilyess_el_korbi.jpg" alt="Ilyess El Korbi" title="Ilyess El Korbi. 
+    Born in Ukraine, Ilyess grew up in Morrocco,
+    14-years-old moved back to Ukraine.
+    The activist of the Fridays For Future international climate movement.">
+
+        <img class="photo" src="images/Palmer.jpg" alt="Dominique Palmer" title="Dominique Palmer.
+    A climate justice activist and 
+    student at the University of Birmingham, England. 
+    She is an organiser within the Fridays For Future international climate movement.
+    Also focuses on Eco-Anxiety in young people related to climate change.">
+
+        <img class="photo" src="images/Leah_numugerwa.jpg" alt="Leah Namugerwa" title="Leah Namugerwa.
+    She is known for leading tree planting campaigns
+    and for starting a petition to enforce the plastic
+    bag ban in Uganda. Celebrated her 15th birthday
+    by planting 200 trees instead of throwing a party">
+
+        <img class="photo" src="images/Mikaela_loach.jpg" alt="Michaela Loach" title="Mikaela Loach.
+    A climate justice activist
+    based in Edinburgh in Scotland who has been nominated for the
+    Global Citizen Prize: UK's Hero Award.">
+
+        <img class="photo" src="images/Tori_tsui.jpg" alt="Tori Tsui" title="Tori Tsui.
+    A Bristol-based climate activist, speaker and consultant from Hong Kong.
+    Suggests eco-anxiety as a mental health crisis, that brings 
+    injustices and is deeply entrenched in racism, sexism, ableism and, above all, capitalism.">
+
+        <img class="photo" src="images/Greta_thunberg.jpg" alt="Greta Thunberg" title="Greta Tintin Eleonora Ernman Thunberg.
+    The activist of the Fridays For Future international climate movement.
+    At age 15, she started spending her school days outside the 
+    Swedish Parliament to call for stronger action on climate change.
+    At some point her influence was known as “the Greta effect”">
+
+        <img class="photo" src="images/Sir_David_attenborough.jpg" alt="David Attenborough" title="Sir David Frederick Attenborough.
+    An English broadcaster, biologist, natural historian and author.
+    Has been named a Champion of the Earth by the UN's Environment Programme
+    for his dedication to research, documentation, 
+    and advocacy for the protection of nature and its restoration. ">
+
+    </div>
+    <script>
+        let theta = Math.PI / 4.0;
+        let new_theta = 0.0;
+        let new_x = 0.0;
+        let new_y = 0.0;
+        let wheel_radius = 200.00;
+        const photos = document.querySelectorAll('.photo');
+        const center = {
+            x: parseFloat(getComputedStyle(photos[0]).left),
+            y: parseFloat(getComputedStyle(photos[0]).top),
+
+        }
+
+        photos.forEach((photo, index) => {
+            new_theta = theta * index;
+            new_x = (Math.cos(new_theta) * wheel_radius);
+            new_y = (-1.0 * Math.sin(new_theta) * wheel_radius);
+            photo.style.left = `${center.x + new_x}px`;
+            photo.style.top = `${center.y + new_y}px`;
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
