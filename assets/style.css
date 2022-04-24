@@ -138,7 +138,27 @@ h3, h4, h5 p {
     text-align: center;
 }
 
-.card-text p{
+
+.carousel-inner{
+    background: #efbc74;
+    border-radius: 18px;
+    height: 60px;
+
+}
+.carousel {
+    background: #efbc74;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px #12a6c0;
+    margin-bottom: 20px;
+    
+}
+
+.carousel p {
+    margin-top: 12px;
+}
+
+.card-text {
+    margin-top: 9px;
     color: #4F4F4A;
     
 }
