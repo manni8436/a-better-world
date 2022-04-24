@@ -220,3 +220,61 @@ footer {
     font-family: Indie Flower, sans serif;
     font-weight: 900;
 }
+
+/*Styles for activists.html*/
+
+ /*Dark circle around*/
+
+ main {
+    position: relative;
+}
+
+/*Background circle*/
+
+#black-circle {
+    background-color: #02030a;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Main axis*/
+.wheel {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Class of photos around*/
+
+.photo {
+    border: 5px solid #ebd3a0;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform .2s;
+    transform-origin: center right;
+}
+
+.photo:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+/*Intro paragraph*/
+#intro-activists {
+    font-size: large;
+}
