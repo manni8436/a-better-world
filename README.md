@@ -6,7 +6,7 @@
 
 ## Final Design
 
-![Final project image home page](assets/images/read.me/land.png "Land")
+![Final project image home page](assets/images/readme/land.png)
 
 ## Contents
 
@@ -232,7 +232,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ### Lighthouse
 
-+ ![Light House report](assets/images/read.me/lighthousereport.png "Report")
++ ![Lighthouse report](assets/images/readme/lighthousereport.png)
 
 ### Desktop
 
