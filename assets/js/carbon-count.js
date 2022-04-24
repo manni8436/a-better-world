@@ -374,36 +374,6 @@ function renderProducts() {
 }       
 
 
-// function showSection(event) {
-//     let buttonPressed = event.target.getAttribute('data-key');
-//     if (buttonPressed === 'food') {
-//             document.querySelector("#food-outer-container").style.display = "block"
-//             document.querySelector("#transport-outer-container").style.display = "none"
-//             document.querySelector("#electronics-outer-container").style.display = "none"
-//             document.querySelector("#clothing-outer-container").style.display = "none"
-//         }
-//         if (buttonPressed === 'transport') {
-//             document.querySelector("#food-outer-container").style.display = "none"
-//             document.querySelector("#transport-outer-container").style.display = "block"
-//             document.querySelector("#electronics-outer-container").style.display = "none"
-//             document.querySelector("#clothing-outer-container").style.display = "none"
-//         }
-//         if (buttonPressed === 'clothing') {
-//             document.querySelector("#food-outer-container").style.display = "none"
-//             document.querySelector("#transport-outer-container").style.display = "none"
-//             document.querySelector("#clothing-outer-container").style.display = "block"
-//             document.querySelector("#electronics-outer-container").style.display = "none"
-            
-//         }
-//         if (buttonPressed === 'electronics') {
-//             document.querySelector("#food-outer-container").style.display = "none"
-//             document.querySelector("#transport-outer-container").style.display = "none"
-//             document.querySelector("#electronics-outer-container").style.display = "block"
-//             document.querySelector("#clothing-outer-container").style.display = "none"
-//         }
-       
-// }
-
 function showSection(event) {
     let sections = ['food', 'transport', 'clothing', 'electronics']
     let buttonPressed = event.target.getAttribute('data-key');
