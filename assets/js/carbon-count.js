@@ -5,6 +5,14 @@ let products = [
         equiv_three: '4.4 gallons of gasoline consumed',
         img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpHEBPyaNUwE1bbhLVtu_uE2C_OPwHmfprA&usqp=CAU'
      },
+
+     { 
+        name: 'beef', section: 'food', carbon_count: 27.0, 
+        equiv_one: '67 car miles driven', equiv_two: '30lb of coal burned', 
+        equiv_three: '3 gallons of gasoline consumed',
+        img_src: 'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-11-Roast-Beef%2Fxtest_roast_beef-3'
+     },
+
      { 
         name: 'cheese', section: 'food', carbon_count: 13.5, 
         equiv_one: '33.5 car miles driven', equiv_two: '1,642 smartphones charged', 
@@ -61,7 +69,7 @@ let products = [
         img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOf9yHf2_Zc9tDs8U6flXijuE9uuT_Uaq2-w&usqp=CAU'
      },
      { 
-        name: 'flight', section: 'transport', carbon_count: 0.156, 
+        name: 'short_flight', section: 'transport', carbon_count: 0.255, 
         equiv_one: '0.387 car miles driven', equiv_two: '0.173lb of coal burned', 
         equiv_three: '19 smartphones charged',
         img_src: 'https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg0OTI0MTktaW1hZ2Uta3d2eG9td3AuanBn.jpg?s=ytUe8BYL7D2W1Hx-VARaBcJ3rXerDAGof6XPfRo6JHY'
@@ -87,6 +95,13 @@ let products = [
         equiv_three: '12.5 smartphones charged',
         img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMDkVTYxLnsIlRM9EKDuk_tEBRWz_3mVTuYQ&usqp=CAU'
      },
+
+     { 
+        name: 'electric_vehicle', section: 'transport', carbon_count: 0.053, 
+        equiv_one: '0.132 car miles driven', equiv_two: '0.059lb of coal burned', 
+        equiv_three: '6.4 smartphones charged',
+        img_src: 'https://www.hyundai.co.kr/image/upload/asset_library/MDA00000000000014444/d9c85fa05f364f4a9203fec17c77a814.jpg'
+     },
      
      { 
         name: 'rail', section: 'transport', carbon_count: 0.041, 
@@ -95,12 +110,6 @@ let products = [
         img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdq9_ItP_FjS_gPLCfa5UiecYB-iJqb2n9rQ&usqp=CAU'
      },
      
-    { 
-        name: 'jeans', section: 'clothing', carbon_count: 27, 
-        equiv_one: '67 car miles driven', equiv_two: '29.9lb of coal burned', 
-        equiv_three: '3 gallons of gasoline consumed',
-        img_src: 'https://media.everlane.com/image/upload/c_fill,dpr_2,f_auto,g_face:center,q_auto,w_auto/v1/i/20093ef2_2ae0.jpg'
-    },
     { 
         name: 'jeans', section: 'clothing', carbon_count: 33.4, 
         equiv_one: '82.9 car miles driven', equiv_two: '4,063 smartphones charged', 
@@ -143,16 +152,16 @@ let products = [
         img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC3T1Rer5lBjRx_GyUYcGzHvAskZM3fXDocQ&usqp=CAU'
      },
     { 
-        name: 'phone', section: 'electronics', carbon_count: 27, 
-        equiv_one: '67 car miles driven', equiv_two: '29.9lb of coal burned', 
-        equiv_three: '3 gallons of gasoline consumed',
+        name: 'phone', section: 'electronics', carbon_count: 0.015, 
+        equiv_one: '0.037 car miles driven', equiv_two: '0.017lb of coal burned', 
+        equiv_three: '0.002 gallons of gasoline consumed',
         img_src: 'https://guide-images.cdn.ifixit.com/igi/o4OjCNmNeOhvsS1P.large'
     },
 
     { 
-        name: 'TV', section: 'electronics', carbon_count: 23, 
-        equiv_one: '67 car miles driven', equiv_two: '29.9lb of coal burned', 
-        equiv_three: '3 gallons of gasoline consumed',
+        name: 'TV', section: 'electronics', carbon_count:  0.088, 
+        equiv_one: '0.218 car miles driven', equiv_two: '0.097lb of coal burned', 
+        equiv_three: '0.01 gallons of gasoline consumed',
         img_src: 'https://www.ikea.com/us/en/images/products/brimnes-tv-unit-black__0851278_pe725293_s5.jpg'
     },
 
@@ -185,7 +194,7 @@ let products = [
      },
      
      { 
-        name: 'tumble_dryer', section: 'electronics', carbon_count: 3.3, 
+        name: 'tumble_dryer', section: 'electronics', carbon_count: 0.9, 
         equiv_one: '8.2 car miles driven', equiv_two: '3.7lb of coal burned', 
         equiv_three: '401 smartphones charged',
         img_src: 'https://images.reevoo.com/products/23990/23990816/550x550.jpg?fingerprint=f322bc2c0ff73dff434df92dec613b21ed6fabfa&gravity=Center'
@@ -264,7 +273,7 @@ function renderProducts() {
         
                     <!-- Modal body -->
                     <div class="modal-body text-center">
-                        <h1>${product.carbon_count} kg</h1>of CO2
+                        <h1>${product.carbon_count} kg</h1>of CO2 <small>(per km/passenger)</small>
                         <hr>
                         <p style="font-style: italic; text-align: left">That's equivalent to...</p>
                         <ul style="list-style-type: square; text-align: left" class="text-left">
@@ -344,7 +353,7 @@ function renderProducts() {
 
                     <!-- Modal body -->
                     <div class="modal-body text-center">
-                        <h1>${product.carbon_count} kg</h1>of CO2
+                        <h1>${product.carbon_count} kg</h1>of CO2 (per hour)
                         <hr>
                         <p style="font-style: italic; text-align: left">That's equivalent to...</p>
                         <ul style="list-style-type: square; text-align: left" class="text-left">
@@ -365,33 +374,49 @@ function renderProducts() {
 }       
 
 
-function showSection(event) {
-    let buttonPressed = event.target.getAttribute('data-key');
-    if (buttonPressed === 'food') {
-            document.querySelector("#food-outer-container").style.display = "block"
-            document.querySelector("#transport-outer-container").style.display = "none"
-            document.querySelector("#electronics-outer-container").style.display = "none"
-            document.querySelector("#clothing-outer-container").style.display = "none"
-        }
-        if (buttonPressed === 'transport') {
-            document.querySelector("#food-outer-container").style.display = "none"
-            document.querySelector("#transport-outer-container").style.display = "block"
-            document.querySelector("#electronics-outer-container").style.display = "none"
-            document.querySelector("#clothing-outer-container").style.display = "none"
-        }
-        if (buttonPressed === 'clothing') {
-            document.querySelector("#food-outer-container").style.display = "none"
-            document.querySelector("#transport-outer-container").style.display = "none"
-            document.querySelector("#clothing-outer-container").style.display = "block"
-            document.querySelector("#electronics-outer-container").style.display = "none"
+// function showSection(event) {
+//     let buttonPressed = event.target.getAttribute('data-key');
+//     if (buttonPressed === 'food') {
+//             document.querySelector("#food-outer-container").style.display = "block"
+//             document.querySelector("#transport-outer-container").style.display = "none"
+//             document.querySelector("#electronics-outer-container").style.display = "none"
+//             document.querySelector("#clothing-outer-container").style.display = "none"
+//         }
+//         if (buttonPressed === 'transport') {
+//             document.querySelector("#food-outer-container").style.display = "none"
+//             document.querySelector("#transport-outer-container").style.display = "block"
+//             document.querySelector("#electronics-outer-container").style.display = "none"
+//             document.querySelector("#clothing-outer-container").style.display = "none"
+//         }
+//         if (buttonPressed === 'clothing') {
+//             document.querySelector("#food-outer-container").style.display = "none"
+//             document.querySelector("#transport-outer-container").style.display = "none"
+//             document.querySelector("#clothing-outer-container").style.display = "block"
+//             document.querySelector("#electronics-outer-container").style.display = "none"
             
+//         }
+//         if (buttonPressed === 'electronics') {
+//             document.querySelector("#food-outer-container").style.display = "none"
+//             document.querySelector("#transport-outer-container").style.display = "none"
+//             document.querySelector("#electronics-outer-container").style.display = "block"
+//             document.querySelector("#clothing-outer-container").style.display = "none"
+//         }
+       
+// }
+
+function showSection(event) {
+    let sections = ['food', 'transport', 'clothing', 'electronics']
+    let buttonPressed = event.target.getAttribute('data-key');
+    document.querySelector("#food-outer-container").style.display = "none"
+    document.querySelector("#transport-outer-container").style.display = "none"
+    document.querySelector("#electronics-outer-container").style.display = "none"
+    document.querySelector("#clothing-outer-container").style.display = "none"
+    
+    sections.forEach(section => {
+        if (section === buttonPressed) {
+            document.querySelector(`#${section}-outer-container`).style.display = "block"
         }
-        if (buttonPressed === 'electronics') {
-            document.querySelector("#food-outer-container").style.display = "none"
-            document.querySelector("#transport-outer-container").style.display = "none"
-            document.querySelector("#electronics-outer-container").style.display = "block"
-            document.querySelector("#clothing-outer-container").style.display = "none"
-        }
+    })
        
 }
   
