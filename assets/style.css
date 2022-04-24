@@ -4,6 +4,15 @@ body {
     background-color: #EBD3A0;
 }
 
+hr {
+    color: #0082F5;
+    height: 5px!important;
+    margin: 2vh auto;
+    width: 90%;
+    border-radius: 100%;
+    box-shadow: 0 0 5px black;
+}
+
 /* nav { 
     font-size: large;
     font-family: Indie Flower, sans serif;
@@ -36,6 +45,10 @@ h1, h2 {
     font-family: 'Arvo','Courier New', Courier, monospace;
 }
 
+#nav-title {
+    margin-top: 10px;
+}
+
 .slogan {
     z-index: 499;
     font-family: 'Arvo';
@@ -52,15 +65,13 @@ h3, h4, h5 p {
 .navbar {
     background-color: #EBD3A0;
     padding-left: 10px;
+    border-bottom: aliceblue 3px solid;
+    box-shadow: 0 0 3px black;
 }
 
 .navbar-brand {
     font-size: 200%;
     font-family: 'Arvo', 'Courier New', Courier, monospace;
-}
-
-.nav-link {
-    font-size: 150%;
 }
 
 .nav-link {
@@ -70,8 +81,8 @@ h3, h4, h5 p {
     text-decoration: none;
     border-bottom: 4px solid transparent;
     padding: 20px 0;
-    margin: 0 5px;
-    font-size: 17px;
+    margin: 10px 5px 0;
+    font-size: 1.4rem;
   }
   .nav-link:hover {
     border-bottom: 4px solid #0082F5;
@@ -151,23 +162,18 @@ h3, h4, h5 p {
     background: url("../assets/images/world-color-smaller.png") 0 0 repeat;
     border-radius: 50%;
     background-size: 630px;
-    animation: rotate 20s ease-in-out infinite;
+    animation: rotate 20s linear infinite;
     transition: transform 200ms linear;
     transform-style: preserve-3d;
     filter: hue-rotate(342deg) drop-shadow(0 0 10px black );
+    box-shadow: inset 0 0 10px rgb(58 58 58);
 }
 
 @keyframes rotate { 
     0% { 
-        filter: hue-rotate(342deg);
         background-position:0 0;
     }
-    50% {
-        filter: hue-rotate(100deg);
-        filter: hue-rotate(331deg);
-    }
     100% {
-        filter: hue-rotate(342deg);
         background-position:630px 0 ;
     }
 }
