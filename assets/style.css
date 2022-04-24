@@ -115,6 +115,17 @@ h3, h4, h5 p {
 }
 
 /* info cards */
+.card{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "image" "text" "stats";
+
+    border-radius: 18px;
+    background: #efbc74;
+    box-shadow: 5px 5px 15px #12a6c0;
+    text-align: center;
+}
 
 .what-site-about-header {
     text-align: center;
@@ -127,9 +138,29 @@ h3, h4, h5 p {
     text-align: center;
 }
 
-.card-title,
+
+.carousel-inner{
+    background: #efbc74;
+    border-radius: 18px;
+    height: 60px;
+
+}
+.carousel {
+    background: #efbc74;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px #12a6c0;
+    margin-bottom: 20px;
+    
+}
+
+.carousel p {
+    margin-top: 12px;
+}
+
 .card-text {
-    text-align: center;
+    margin-top: 9px;
+    color: #4F4F4A;
+    
 }
 
 .info-card {
@@ -183,6 +214,7 @@ h3, h4, h5 p {
     max-width: 450px;
     max-height: 500px;
     margin-bottom: 10px;
+    padding: 10px;
 
 }
 
@@ -193,6 +225,10 @@ h3, h4, h5 p {
     min-width: 200px;
     max-height: 200px;
     min-height: 200px;
+}
+
+.btn-outline-success {
+    width: 135px;
 }
 
 .product-name {
@@ -213,5 +249,20 @@ footer {
     font-size: 40px;
     font-family: 'Arvo', Courier, monospace;
     font-weight: 900;
-    text-align: center;
 }
+
+
+@media screen and (max-width:960px) { 
+    .tip-text { 
+      width:350px;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width:600px) { 
+    .tip-text { 
+      width:350px;
+    }
+  
+  }
