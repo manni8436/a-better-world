@@ -115,6 +115,17 @@ h3, h4, h5 p {
 }
 
 /* info cards */
+.card{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "image" "text" "stats";
+
+    border-radius: 18px;
+    background: #efbc74;
+    box-shadow: 5px 5px 15px #12a6c0;
+    text-align: center;
+}
 
 .what-site-about-header {
     text-align: center;
@@ -127,9 +138,9 @@ h3, h4, h5 p {
     text-align: center;
 }
 
-.card-title,
-.card-text {
-    text-align: center;
+.card-text p{
+    color: #4F4F4A;
+    
 }
 
 .info-card {
