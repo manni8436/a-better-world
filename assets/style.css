@@ -183,6 +183,7 @@ h3, h4, h5 p {
     max-width: 450px;
     max-height: 500px;
     margin-bottom: 10px;
+    padding: 10px;
 
 }
 
@@ -213,5 +214,20 @@ footer {
     font-size: 40px;
     font-family: 'Arvo', Courier, monospace;
     font-weight: 900;
-    text-align: center;
 }
+
+
+@media screen and (max-width:960px) { 
+    .tip-text { 
+      width:350px;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width:600px) { 
+    .tip-text { 
+      width:350px;
+    }
+  
+  }
