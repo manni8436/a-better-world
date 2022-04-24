@@ -2,11 +2,32 @@
 
 [Here is a link to the final project]()
 
-## Initial Design 
+## Design 
+
+### Design Brief
+
+#### Color Scheme
+
+   ![Color Scheme](assets/images/read.me/colorScheme0.jpeg "Color")
+
+#### Wireframes
+
+   + Land page
+
+    ![Land](assets/images/read.me/mainwireframe.png "Carbon")
+   
+   + Crbon Counter
+
+   ![Carbon Counter App](assets/images/read.me/CarbonWireframe.png "Carbon")
+
+   + Tips 
+
+   ![Tips page](assets/images/read.me/tipswireframe.png "Tips")
+
 
 ## Final Design
 
-![Final project image home page]()
+![Final project image home page](assets/images/read.me/land.png "Land")
 
 ## Contents
 
@@ -68,14 +89,6 @@
    + As the owners We want to share with the users  sustanability facts and  stadistics  
 
 
-## Design
-
-### Color Scheme
-
-## Wireframes
-
-[Here are my wireframes for desktop, mobile and tablet for this project]()
-
 ## Features
 
 ### Main  
@@ -96,13 +109,32 @@
 
    + The navigation menu becomes and hamburger menu in small size screens 
 
-#### The About Setion:
+   + We decided to add a spinning earth as Navbar logo
 
-#### The Get inspired:
+   ![NavBar](assets/images/read.me/navBar.png "Tips")
+
+   
+
+
+#### Carbon Counter:
+
+   + In the Carbon Count section the users can click in one of the following familys: 
+   
+  ![Carbon Counter](assets/images/read.me/carbon.png "Carbon")
+
+   + After click, a list of items will be shown and the user can click in each of the items to see the carbon footprint for each item:
+  
+  ![Carbon Counter](assets/images/read.me/items.png "Carbon")
+
+  ![Carbon Counter](assets/images/read.me/footprint.png "Carbon")
+    
+
 
 #### The Footer:
 
-## Solved Bugs:
+  + The footer includes an animation and links to all Team member's Github profiles 
+
+    ![Carbon Counter](assets/images/read.me/footer.png "Carbon")
 
 ## Technologies Used
 
@@ -208,23 +240,19 @@ If you need to make a local clone:
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 
 * W3C HTML Validator Results
+    * [HTML]()
 
 * W3C CSS Validator Results
     * [CSS]()
 
 ### Lighthouse
 
+ + ![Light House report](assets/images/read.me/lighthousereport.png "Report")
+
+
 ### Desktop
 
 ### Mobile
-
-#### Performance:
-
-#### Accessibility:
-
-#### Best Practices:
-
-#### SEO:
 
 ## Content
 
@@ -238,6 +266,6 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
    * [Tips and Ideas](https://eu.usatoday.com/story/money/2019/06/17/climate-change-30-ways-to-make-your-life-more-environmentally-friendly/39366589/)
 
-### Images
-
 ## Acknowledgements
+
+
