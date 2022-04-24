@@ -229,7 +229,24 @@ h3, h4, h5 p {
 
 .btn-outline-success {
     width: 135px;
+    color: #0082F5;
+    border: solid 2px #0082F5;
+    font-weight: 500
 }
+
+.btn-outline-success:hover {
+    background-color: #0082F5;
+    border-color: #0082F5
+}
+.btn-outline-success:active {
+    background-color: #0082F5;
+    border: solid 2px #0082F5
+}
+
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.25rem #0083f57c;
+}
+
 
 .product-name {
     text-transform: capitalize;
@@ -238,6 +255,7 @@ h3, h4, h5 p {
 #transport-outer-container, 
 #clothing-outer-container, 
 #electronics-outer-container {
+    transition: 0.3s;
     display: none;
 }
 
