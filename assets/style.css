@@ -229,7 +229,24 @@ h3, h4, h5 p {
 
 .btn-outline-success {
     width: 135px;
+    color: #0082F5;
+    border: solid 2px #0082F5;
+    font-weight: 500
 }
+
+.btn-outline-success:hover {
+    background-color: #0082F5;
+    border-color: #0082F5
+}
+.btn-outline-success:active {
+    background-color: #0082F5;
+    border: solid 2px #0082F5
+}
+
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.25rem #0083f57c;
+}
+
 
 .product-name {
     text-transform: capitalize;
@@ -238,6 +255,7 @@ h3, h4, h5 p {
 #transport-outer-container, 
 #clothing-outer-container, 
 #electronics-outer-container {
+    transition: 0.3s;
     display: none;
 }
 
@@ -251,6 +269,63 @@ footer {
     font-weight: 900;
 }
 
+/*Styles for activists.html*/
+
+ /*Dark circle around*/
+
+ main {
+    position: relative;
+}
+
+/*Background circle*/
+
+#black-circle {
+    background-color: #02030a;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Main axis*/
+.wheel {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Class of photos around*/
+
+.photo {
+    border: 5px solid #ebd3a0;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform .2s;
+    transform-origin: center right;
+}
+
+.photo:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+/*Intro paragraph*/
+#intro-activists {
+    font-size: large;
+}
 
 @media screen and (max-width:960px) { 
     .tip-text { 
