@@ -1,108 +1,243 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Earth Day Hackathon
 
-Welcome gretazas,
+[Here is a link to the final project]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Initial Design 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Final Design
 
-## Gitpod Reminders
+![Final project image home page]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Contents
 
-`python3 -m http.server`
+* [User Experience](#USER-EXPERIENCE)  
+    * [User Stories](#USER-STORIES)    
 
-A blue button should appear to click: _Make Public_,
+* [Design](#DESIGN)   
+    * [Color Scheme](#COLOR-SCHEME)
 
-Another blue button should appear to click: _Open Browser_.
+* [Wireframes](#WIREFRAMES) 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [Technologies Used](#TECHNOLOGIES-USED) 
+    * [Languages Used](#LANGUAGES-USED)
+    * [Programs Used](#PROGRAMS-USED)
 
-A blue button should appear to click: _Make Public_,
+* [Deployment](#DEPLOYMENT)
+    * [Initial Deployment](#INITIAL-DEPLOYMENT)
+    * [How To Fork A Repository](#HOW-TO-FORK-A-REPOSITORY)
+    * [How To Clone A Repository](#HOW-TO-CLONE-A-REPOSITORY)
+    * [How To Make A Local Clone](#HOW-TO-MAKE-A-LOCAL-CLONE)
 
-Another blue button should appear to click: _Open Browser_.
+* [Testing](#TESTING)
+    * [Code Validators](#CODE-VALIDATORS)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* [Content](#CONTENT)
+    * [Images](#IMAGES)
+    * [Text Content](#TEXT-CONTENT)
 
-To log into the Heroku toolbelt CLI:
+* [Acknowledgements](#ACKNOWLEDGEMENTS)    
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User experience
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## User stories
 
-------
+#### First time visitors
 
-## Release History
+   + As a new user, I would liket to know what the website is about opening the site.
+   + As a new user, I would like to get information about the website.
+   + As a new user, I would like to see find some helpfull information and tips to become more eco-friedly.
+   + As a new user, I would like to easily be able to interact with the page features.
+   + As a new user, I would like to understand how the information is structured in the site.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Returning Users
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+   + As a repeat user, I would like to be able to find the information I need.
+   + As a reteat user, I would like to easily return into the Carbon Count aplication.
+   + As a repeat user, I would like to easily return into the Tips section.
+   
+#### All users 
+ 
+   + As a user, I would like to get feedback when I have completed an action on the site.
+   + As a user, I would like to be able to contact the website owners if there is an issue.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Website owners
+  
+   + As the owners, We want the users to find information easily.
+   + As the owners, We want to inspire the users on how to become more eco-friendly.
+   + As the owners, We want to help the users to transform old habits into more sustanaibles habits.  
+   + As the owners We want to share with the users  sustanability facts and  stadistics  
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Design
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Color Scheme
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Wireframes
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+[Here are my wireframes for desktop, mobile and tablet for this project]()
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Main  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ #### Landing page:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+   + When a user opens the site the are presented with the landing page
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+   + It contains a clear title and information about the application 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+   + There are also cards with links to the relevant structured information  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+   + There is an about us section and there are the 3 main sections of the page, General information, Tips and the Carbon Count. 
 
-------
+#### Navigation Bar:
 
-## FAQ about the uptime script
+   + The navigation menu has been made responsive and Interactive.
 
-**Why have you added this script?**
+   + The navigation menu becomes and hamburger menu in small size screens 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### The About Setion:
 
-**How will this affect me?**
+#### The Get inspired:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### The Footer:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Solved Bugs:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Technologies Used
 
-**So….?**
+#### Languages Used: 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+   + [HTML5](https://en.wikipedia.org/wiki/HTML5S).
 
-**Can I opt out?**
+     - HTML5 was used to create the content and base of each page.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+   + [CSS3](https://en.wikipedia.org/wiki/CSS).
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+     - CSS3 was used to then style the page and make it responsive through media queries, and interactive through using CSS transitions.
 
-**Anything more?**
+   + [JavaScript](https://en.wikipedia.org/wiki/JavaScript).
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+     - javaScript was used throughout the website to make the site interactive.
 
----
+ #### Frameworks Libraries and Programs.
 
-Happy coding!
+   + [Font Awesome](https://fontawesome.com/) 
+   
+     - Font Awesome Was used for a few icons in the footer  on all of this site's pages.
+
+
+   + [Google Fonts](https://fonts.google.com/)
+   
+     - Google Fnts Was used for all the text content on the site pages.
+
+   + [Git](https://git-scm.com/).
+
+     - Git was used for version control by using the Gitpod terminal to add and commit to GIt and push to Github.
+
+   + [GitPod](https://gitpod.io/).
+    
+     - GitPod was used as an IDE whilst coding this site.
+
+   + [GitHub](https://github.com/).
+    
+     - GitHub is being used to store all the code for this project after being pushed from GitPod.
+   
+   + [Balsamiq](https://github.com/).
+    
+     - Balsamiq was used in the initial design process to make wireframes.
+
+   + [Google Developers Tool](https://developers.google.com/web/tools).
+    
+     - Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code.
+
+
+## Deployment:
+
+### Initial Deployment:
+
+This site was deployed using GitHub Pages with the following the steps below:
+
+1. Login or Sign Up to [GitHub](www.github.com).
+2. Create a new repository named "".
+3. Once created, click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages", on the left hand side below Secrets.
+5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
+6. Choose which folder to deploy from, generally from "/root".
+7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
+8. The URL will be displayed above the "source" section in GitHub Pages.
+
+### How to Fork a Repository
+
+If you need to make a copy of a repository:
+
+1. Login or Sign Up to [GitHub](www.github.com).
+2. On GitHub, go to [manni8436/MS1-Project]().
+3. In the top right corner, click "Fork".
+
+### How to Clon a Repository
+
+If you need to make a clone:    
+
+1. Login in to [GitHub](www.github.com).
+2. Fork the repository manni8436/MS1-Project(update) using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
+3. Above the file list, click "Code".
+4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
+5. Open Git Bash.
+6. Change the directory to where you want your clone to go.
+7. Type git clone and then paste the URL you copied in step 4.
+8. Press Enter to create your clone.
+
+### How to make a Local Clone
+
+If you need to make a local clone:   
+
+1. Login in to [GitHub](www.github.com).
+2. Under the repository name, above the list of files, click "Code".
+3. Here you can either Clone or Download the repository.
+4. You should close the repository using HTTPS, clicking on the icon to copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the new locaiton, where you want the cloned directory to be.
+7. Type git clone and then paste the URL you copied in step 4.
+8. Press Enter, and your local clone will be created.
+
+## Testing
+
+### Code validators
+
+The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+
+* W3C HTML Validator Results
+
+* W3C CSS Validator Results
+    * [CSS]()
+
+### Lighthouse
+
+### Desktop
+
+### Mobile
+
+#### Performance:
+
+#### Accessibility:
+
+#### Best Practices:
+
+#### SEO:
+
+## Content
+
+   + The content of this website were find searching the relevant information in differents websites with stadistics and information related with climate change, eco-habits, and different forms of contamination:
+
+   * [Cardbord Print Stadistics](https://www.visualcapitalist.com/comparing-the-carbon-footprint-of-transportation-options/)
+
+   * [Co2 Calculators ](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results/)
+
+   * [Plastic in the Ocean](https://www.condorferries.co.uk/marine-ocean-pollution-statistics-facts#:~:text=PLASTIC%20IN%20THE%20OCEAN%20FACTS%20%26%20STATISTICS&text=oceans%20every%20year.-,There%20are%205.25%20trillion%20pieces%20of%20plastic%20waste%20estimated%20to,15%25%20lands%20on%20our%20beaches)
+
+   * [Tips and Ideas](https://eu.usatoday.com/story/money/2019/06/17/climate-change-30-ways-to-make-your-life-more-environmentally-friendly/39366589/)
+
+### Images
+
+## Acknowledgements
