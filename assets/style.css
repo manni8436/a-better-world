@@ -4,11 +4,11 @@ body {
     background-color: #EBD3A0;
 }
 
-nav { 
+/* nav { 
     font-size: large;
     font-family: Indie Flower, sans serif;
     font-weight: 900;
-}
+} */
 
 #logo {
     height: 70px;
@@ -78,6 +78,8 @@ h3, h4, h5 p {
     padding: 6px 0; 
   }
 
+/* Hero Section */
+
 .hero-image {
     z-index: 500;
     width: 100%;
@@ -100,25 +102,16 @@ h3, h4, h5 p {
     line-height: 5rem;
 }
 
-.subtitle {
-    font-size: 150%;
-    text-align: center;
-    font-family: Indie Flower, sans serif;
-    font-size: 5rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 19%;
-    color: dimgrey;
-    background: #f0f8ff94;
-    width: 40%;
-    margin: auto;
-    border: antiquewhite 2px solid;
-    box-shadow: 0 0 5px #8c57a6;
-}
-
 #slogan-earth {
     margin: 8vh auto 0;
+}
+
+.subtitle {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 /* info cards */
@@ -217,7 +210,8 @@ footer {
 }
 
 .team {
-    font-size: 50px;
-    font-family: Indie Flower, sans serif;
+    font-size: 40px;
+    font-family: 'Arvo', Courier, monospace;
     font-weight: 900;
+    text-align: center;
 }
