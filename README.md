@@ -6,7 +6,7 @@
 
 ## Final Design
 
-![Final project image home page](assets/images/read.me/land.png "Land")
+![Final project image home page](assets/images/readme/land.png)
 
 ## Contents
 
