@@ -4,6 +4,10 @@
 
 ## Initial Design
 
+The initial design for this project was to build a webpage not only to highlight, but also improve the impact that our day to day routines is having on our
+environment. "A Better World" gives you more information that is needed to improve the way of life, help the environment and begin a journey to a more eco-friendly 
+lifestyle and being more aware on the impact it is having in the world.
+
 ## Final Design
 
 ![Final project image home page](assets/images/readme/land.png)
