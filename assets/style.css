@@ -13,12 +13,6 @@ hr {
     margin: 2vh auto;
 }
 
-/* nav { 
-    font-size: large;
-    font-family: Indie Flower, sans serif;
-    font-weight: 900;
-} */
-
 #logo {
     height: 70px;
     width: 70px;
@@ -194,6 +188,14 @@ h3, h4, h5 p {
 .carousel-inner {
     text-align: center;
     border: 2px black solid;
+}
+
+/* Modal Content */
+
+.modal-title {
+    text-align: center;
+    align-content: center;
+    color: #005cff;
 }
 
 
