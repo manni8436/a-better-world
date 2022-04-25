@@ -83,10 +83,15 @@ h3, h4, h5 p {
     padding: 20px 0;
     margin: 10px 5px 0;
 }
-  
+
 .nav-link:hover {
     border-bottom: 4px solid #0082F5;
+    text-decoration: none;
     padding: 6px 0; 
+}
+
+.nav-link.active {
+    border-bottom: 4px solid #0082F5;
 }
 
 /* Hero Section */
