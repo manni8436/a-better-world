@@ -199,6 +199,13 @@ h3, h4, h5 p {
 }
 
 
+.holiday {
+    padding-top: 60px;
+}
+
+
+/* Spinning Earth */
+
 .earth{
     position: relative;
     height: 200px;
