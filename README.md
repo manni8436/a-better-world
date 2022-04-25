@@ -1,5 +1,10 @@
 # A Better Day
 
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/a-better-world)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/a-better-world)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/a-better-world)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/a-better-world)
+
 [Here is a link to the final project](https://manni8436.github.io/a-better-world/)
 
 ## Initial Design

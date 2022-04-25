@@ -13,12 +13,6 @@ hr {
     margin: 2vh auto;
 }
 
-/* nav { 
-    font-size: large;
-    font-family: Indie Flower, sans serif;
-    font-weight: 900;
-} */
-
 #logo {
     height: 70px;
     width: 70px;
@@ -83,10 +77,15 @@ h3, h4, h5 p {
     padding: 20px 0;
     margin: 10px 5px 0;
 }
-  
+
 .nav-link:hover {
     border-bottom: 4px solid #0082F5;
+    text-decoration: none;
     padding: 6px 0; 
+}
+
+.nav-link.active {
+    border-bottom: 4px solid #0082F5;
 }
 
 /* Hero Section */
@@ -189,6 +188,14 @@ h3, h4, h5 p {
 .carousel-inner {
     text-align: center;
     border: 2px black solid;
+}
+
+/* Modal Content */
+
+.modal-title {
+    text-align: center;
+    align-content: center;
+    color: #005cff;
 }
 
 
