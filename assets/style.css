@@ -87,6 +87,7 @@ h3, h4, h5 p {
 
 .nav-link:hover {
     border-bottom: 4px solid #0082F5;
+    text-decoration: none;
     padding: 6px 0; 
 }
 
