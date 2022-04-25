@@ -311,7 +311,7 @@ footer {
     top: 50%;
     transform: translate(-50%, -50%);
     transition: transform .2s;
-    transform-origin: center right;
+    transform-origin: right bottom;
 }
 
 .photo:hover {
