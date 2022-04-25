@@ -82,7 +82,6 @@ h3, h4, h5 p {
     border-bottom: 4px solid transparent;
     padding: 20px 0;
     margin: 10px 5px 0;
-    font-size: 1.4rem;
 }
 
 .nav-link:hover {
@@ -221,7 +220,7 @@ h3, h4, h5 p {
         background-position:630px 0 ;
     }
 }
-/* styles for tips page*/
+/* styles for tips, holidays page*/
 
 .tips {
     height: 50vh
@@ -296,12 +295,6 @@ footer {
 
 /*Styles for activists.html*/
 
- /*Dark circle around*/
-
- main {
-    position: relative;
-}
-
 /*Background circle*/
 
 #black-circle {
@@ -315,6 +308,7 @@ footer {
 }
 
 /* Main axis*/
+
 .wheel {
     width: 300px;
     height: 200px;
@@ -348,8 +342,9 @@ footer {
 }
 
 /*Intro paragraph*/
+
 #intro-activists {
-    font-size: large;
+    font-size: 20px;
 }
 
 @media screen and (max-width:960px) { 
