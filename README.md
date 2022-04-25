@@ -15,7 +15,7 @@ lifestyle and being more aware on the impact it is having in the world.
 
 ## Final Design
 
-![Final project image home page](assets/images/readme/land.png)
+![Final project image home page](assets/images/readme/land.JPG)
 
 ## Contents
 
@@ -112,7 +112,7 @@ lifestyle and being more aware on the impact it is having in the world.
 
   + We decided to add a spinning earth as Navbar logo
 
-![NavBar](assets/images/readme/navBar.png "Tips")
+![NavBar](assets/images/readme/navBar.PNG "Tips")
 
 #### Carbon Counter:
 
@@ -130,7 +130,7 @@ lifestyle and being more aware on the impact it is having in the world.
 
 + The footer includes an animation and links to all Team member's Github profiles 
 
-![Carbon Counter](assets/images/readme/footer.png)
+![Carbon Counter](assets/images/readme/footer.PNG)
 
 ## Technologies Used
 
